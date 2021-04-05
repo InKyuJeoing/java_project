@@ -27,3 +27,21 @@ abstract  class Ex04 extends Ex01{
 	}
 	public abstract void  pop() ;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

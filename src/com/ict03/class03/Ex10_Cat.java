@@ -4,6 +4,7 @@ public class Ex10_Cat extends Ex09_Animal{
 	String name = "´ÙÈ«ÀÌ";
 	int age = 1 ;
 	
+	
 	public void hobby() {
 		System.out.println("ÁãÀâÀÌ");
 	}

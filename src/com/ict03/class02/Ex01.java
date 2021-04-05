@@ -248,7 +248,7 @@ public class Ex01 {
 		String quiz = "010-7777-9999";
 		String[] anser = quiz.split("-");
 		anser[1] =  anser[1].replace(anser[1], "-XXXX-");
-		// anser[2] =  anser[2].replace(anser[2], "XXXX");
+		// anser[2] =  anser[2].replace(anser[2], "-XXXX-");
 		for (int i = 0; i < anser.length; i++) {
 			System.out.print(anser[i]);
 		}
@@ -391,4 +391,13 @@ public class Ex01 {
 		   
 	}
 }
+
+
+
+
+
+
+
+
+
 

@@ -29,13 +29,18 @@ public class Ex03 {
 		for (int i = 0; i < arr.length; i++) {
 			System.out.println(arr[i].getName()+", " +arr[i].getSize() );
 		}
-		
+		System.out.println("=============");
+		for (Type2 k : arr) {
+			System.out.println(k.getName()+", "+ k.getSize());
+		}
+		System.out.println("=============");
 		// 개선된 for문 = foreach = forin => 배열이나 나중에 배울 컬렉션에서 주로 사용
 		// ':'의 의미가 배열이 가지고 있는 처음부터 끝까지 차례대로 
-		//  내부에서 사용할 변수에 저장시키는 역할   
-		// for (자료형 내부에서사용할변수 : 배열) {
+		//  내부에서 사용할 변수에 저장시키는 역할
+		//  단, 배열의 특정한 요소를 처리 할 수 없다.
+		//  for (자료형 내부에서사용할변수 : 배열) {
 		// 	
-		// }
+		//  }
 		
 		String[] msg = {"java","jsp","spring","android"};
 		for (String k : msg) {

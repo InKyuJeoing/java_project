@@ -29,11 +29,24 @@ public class Ex12_main {
 		}else if(s1==2) {
 			animal = new Ex11_dog();
 		}
-		
-		// 특징 : 부모클래스에 없는 메소드는 사용 불가
+		// 특징 : 부모클래스에 없는 메소드는 사용 불가 
 		animal.sound();
 		// animal.hobby();
 		animal.like();
 		animal.sleep();
 	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
