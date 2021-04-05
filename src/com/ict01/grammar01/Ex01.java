@@ -6,5 +6,6 @@ class Ex01{
 		System.out.println("ÀÚ¹ÙÀÇ ²Ş!");
 		System.out.println("ÀÚ¹ÙÀÇ ²Ş!");
 		System.out.println("ÀÚ¹ÙÀÇ ²Ş!");
+		System.out.println("ÀÚ¹ÙÀÇ ²Ş!");
 	}
 }
